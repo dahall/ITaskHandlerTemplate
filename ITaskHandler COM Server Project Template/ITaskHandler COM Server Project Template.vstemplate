@@ -6,7 +6,7 @@
     <Icon>__TemplateIcon.ico</Icon>
     <PreviewImage>__PreviewImage.png</PreviewImage>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>b048f07b-d518-4942-b905-b2375185e1ed</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>

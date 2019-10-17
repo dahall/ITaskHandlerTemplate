@@ -15,16 +15,12 @@ namespace $safeprojectname$
 	[ComVisible(true), Guid("$guid2$"), ClassInterface(ClassInterfaceType.None)]
 	public class TaskHandler1 : TaskHandlerBase
 	{
-		/// <summary>
-		/// Initializes a new instance of the <see cref="TaskHandler1"/> class.
-		/// </summary>
+		/// <summary>Initializes a new instance of the <see cref="TaskHandler1"/> class.</summary>
 		public TaskHandler1()
 		{
 		}
 
-		/// <summary>
-		/// Called to start the COM handler.
-		/// </summary>
+		/// <summary>Called to start the COM handler.</summary>
 		/// <param name="data">Data string passed in from Task Scheduler action.</param>
 		public override void Start(string data)
 		{
@@ -40,25 +36,21 @@ namespace $safeprojectname$
 			//     this.StatusHandler.TaskCompleted(0); // or an error code on failure
 		}
 
-		/// <summary>
-		/// Called to stop the COM handler.
-		/// </summary>
-		/// <returns>The return code that the Task Schedule will raise as an event when the COM handler action is completed. Return 0 on success.</returns>
+		/// <summary>Called to stop the COM handler.</summary>
+		/// <returns>
+		/// The return code that the Task Schedule will raise as an event when the COM handler action is completed. Return 0 on success.
+		/// </returns>
 		public override int Stop()
 		{
 			return 0;
 		}
 
-		/// <summary>
-		/// Called to pause the COM handler. Implementing this method is optional.
-		/// </summary>
+		/// <summary>Called to pause the COM handler. Implementing this method is optional.</summary>
 		public override void Pause()
 		{
 		}
 
-		/// <summary>
-		/// Called to resume the COM handler. Implementing this method is optional.
-		/// </summary>
+		/// <summary>Called to resume the COM handler. Implementing this method is optional.</summary>
 		public override void Resume()
 		{
 		}

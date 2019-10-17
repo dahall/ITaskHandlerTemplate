@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="ITaskHandler_Project_Template.3e21ae75-e381-486c-8bb6-54d588f12792" Version="1.0" Language="en-US" Publisher="David Hall" />
-    <DisplayName>ITaskHandler Project Template</DisplayName>
-    <Description xml:space="preserve">Provides a template project to easily create your own custom Task Scheduler COM Handler based on the ITaskHandler interface that will stub out the majority of the work to create it in C#.</Description>
-    <MoreInfo>https://github.com/dahall/ITaskHandlerTemplate</MoreInfo>
-    <License>license.txt</License>
-    <GettingStartedGuide>https://github.com/dahall/ITaskHandlerTemplate</GettingStartedGuide>
-    <ReleaseNotes>https://github.com/dahall/ITaskHandlerTemplate</ReleaseNotes>
-    <Icon>__TemplateIcon.ico</Icon>
-    <PreviewImage>__PreviewImage.png</PreviewImage>
-    <Tags>itaskhandler taskscheduler</Tags>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
-    <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Ultimate" />
-    <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Premium" />
-    <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
-    <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Community" />
-  </Installation>
-  <Dependencies>
-  </Dependencies>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="ITaskHandler COM Server Project Template" d:TargetPath="|ITaskHandler COM Server Project Template;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
-  </Assets>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
+    <Metadata>
+        <Identity Id="ITaskHandler_Project_Template.3e21ae75-e381-486c-8bb6-54d588f12792" Version="1.1" Language="en-US" Publisher="David Hall" />
+        <DisplayName>ITaskHandler Project Template</DisplayName>
+        <Description xml:space="preserve">Provides a template project to easily create your own custom Task Scheduler COM Handler based on the ITaskHandler interface that will stub out the majority of the work to create it in C#.</Description>
+        <MoreInfo>https://github.com/dahall/ITaskHandlerTemplate</MoreInfo>
+        <License>license.txt</License>
+        <GettingStartedGuide>https://github.com/dahall/ITaskHandlerTemplate</GettingStartedGuide>
+        <ReleaseNotes>https://github.com/dahall/ITaskHandlerTemplate</ReleaseNotes>
+        <Icon>__TemplateIcon.ico</Icon>
+        <PreviewImage>__PreviewImage.png</PreviewImage>
+        <Tags>itaskhandler taskscheduler</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Ultimate" />
+        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Premium" />
+        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+        <InstallationTarget Version="[14.0,17.0)" Id="Microsoft.VisualStudio.Community" />
+    </Installation>
+    <Dependencies>
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="ITaskHandler COM Server Project Template" d:TargetPath="|ITaskHandler COM Server Project Template;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
 </PackageManifest>
