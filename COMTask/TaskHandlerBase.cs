@@ -41,7 +41,10 @@ namespace Microsoft.Win32.TaskScheduler
 	[ComImport, Guid("EAEC7A8F-27A0-4DDC-8675-14726A01A38A"), InterfaceType(ComInterfaceType.InterfaceIsIUnknown), System.Security.SuppressUnmanagedCodeSecurity]
 	public interface ITaskHandlerStatus
 	{
-		/// <summary>Tells the Task Scheduler about the percentage of completion of the COM handler.</summary>
+		/// <summary>
+		/// Tells the Task Scheduler about the percentage of completion of the COM handler. <note type="note">To the best of anyone's
+		/// knowledge, this method does nothing in the operating system or event log or user interface.</note>
+		/// </summary>
 		/// <param name="percentComplete">A value that indicates the percentage of completion for the COM handler.</param>
 		/// <param name="statusMessage">The message that is displayed in the Task Scheduler UI.</param>
 		void UpdateStatus([In] short percentComplete, [In, MarshalAs(UnmanagedType.BStr)] string statusMessage);
